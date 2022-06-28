@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "css:watch": "yarn tailwindcss -i ./src/index.css -o ./web/main.css --watch",
+    "css:build": "yarn tailwindcss -i ./src/index.css -o ./web/main.css",
+    "start": "node index.js"
+  },
   "dependencies": {
     "webwebweb": "^1.4.10"
   },
